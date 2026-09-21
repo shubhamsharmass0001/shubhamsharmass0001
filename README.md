@@ -6,12 +6,26 @@
 
 *Building reliable AI systems that reason, retrieve, remember and deploy.*
 
+<a href="https://github.com/shubhamsharmass0001"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1200&color=E8734A&center=true&vCenter=true&width=620&lines=Multi-agent+LangGraph+workflows;RAG+over+1%2C000%2B+documents;LLM+failover+%2B+automated+evaluation;LeetCode+Guardian+%7C+Top+1.25%25" alt="Typing animation"/></a>
+
 <a href="https://shubhamsharmaportfolio.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=netlify&logoColor=white" alt="Portfolio"/></a>
 <a href="https://www.linkedin.com/in/shubhamsharmass0001"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="https://codolio.com/profile/shubhamsharmass0001"><img src="https://img.shields.io/badge/Coding_Profiles-FF6B35?style=for-the-badge&logoColor=white" alt="Coding Profiles"/></a>
 <a href="mailto:shubhamsharmass0001@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 
 </div>
+
+## ⚡ Recruiter TL;DR
+
+| | |
+|---|---|
+| **Role I'm targeting** | AI / ML Engineer · Backend & Full-Stack · SDE (Class of 2027) |
+| **Strongest proof** | Production-style multi-agent RAG platform with LLM failover and automated evaluation ([live demo](https://ai-native-email-intelligence-omega.vercel.app/)) |
+| **By the numbers** | 1,000+ docs indexed · 40% fewer irrelevant answers · 60% faster batch processing · 500+ items verified |
+| **Problem solving** | LeetCode Guardian (2142), top 1.25% · 1000+ problems · 50+ contests |
+| **Startup impact** | Contributed to All India Rank 1 at UptoSkills StartupThon (VzenCare) |
+| **Leadership** | Led a 25+ member tech team, 10+ events, 500+ participants |
+| **Reach me** | [shubhamsharmass0001@gmail.com](mailto:shubhamsharmass0001@gmail.com) |
 
 ## About
 
@@ -84,6 +98,31 @@ I build production-grade AI systems focused on **multi-agent orchestration**, **
 - Batch-validates **500+** Coursera certificates and LinkedIn posts.
 - Multi-threaded pipeline cutting processing time by **60%** versus sequential execution.
 - Fuzzy matching for dynamic Excel column detection and automated report generation.
+
+## 🧠 How My Flagship Project Works
+
+A quick look at the request flow inside the [AI-Native Email Intelligence Platform](https://github.com/shubhamsharmass0001/AI-Native-Email-Intelligence):
+
+```mermaid
+flowchart LR
+    U["Customer email"] --> N["Next.js frontend"]
+    N --> A["FastAPI async backend"]
+    A --> G{{"LangGraph orchestrator"}}
+    G --> I["Intent classifier agent"]
+    I --> R["Retriever agent"]
+    R <--> C[("ChromaDB<br/>1,000+ support docs")]
+    R --> W["Response generator agent"]
+    W --> L1["Claude"]
+    L1 -. "on failure" .-> L2["Gemini fallback"]
+    W --> E["Evaluation pipeline"]
+    E --> M["BERTScore<br/>Semantic similarity<br/>LLM-as-a-judge"]
+    W --> O["Grounded reply"]
+```
+
+**Design decisions worth talking about**
+- **Multi-agent split:** classification, retrieval and generation are separate graph nodes, so each step can be tested and swapped independently.
+- **Failover:** if the primary LLM provider fails, requests fall back to a second provider instead of erroring out.
+- **Evaluation built in:** responses are scored automatically, so quality is monitored rather than guessed.
 
 ## Experience
 
