@@ -140,6 +140,13 @@ flowchart LR
 - 🚀 10+ hackathons, including 2× Smart India Hackathon; Semi-Finalist at Flipkart GRiD 7.0
 - 🎓 NVIDIA certified in Large Language Models and Generative AI Deployment
 
+
+<div align="center">
+
+[![LeetCode Stats](https://leetcard.jacoblin.cool/shubhamsharmass0001?theme=dark&font=Fira%20Code&ext=heatmap)](https://leetcode.com/u/shubhamsharmass0001/)
+
+</div>
+
 ## GitHub Stats
 
 <div align="center">
@@ -148,6 +155,12 @@ flowchart LR
 [![Streak](https://github-readme-streak-stats.herokuapp.com/?user=shubhamsharmass0001&theme=github-dark&hide_border=true)](https://github.com/shubhamsharmass0001)
 
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=shubhamsharmass0001&theme=github-compact&hide_border=true)](https://github.com/shubhamsharmass0001)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shubhamsharmass0001/shubhamsharmass0001/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shubhamsharmass0001/shubhamsharmass0001/output/github-snake.svg"/>
+  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/shubhamsharmass0001/shubhamsharmass0001/output/github-snake-dark.svg"/>
+</picture>
 
 ### *Read papers • Build systems • Ship products*
 
