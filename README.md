@@ -143,8 +143,6 @@ flowchart LR
 
 <div align="center">
 
-[![LeetCode Stats](https://leetcard.jacoblin.cool/shubhamsharmass0001?theme=dark&font=Fira%20Code&ext=heatmap)](https://leetcode.com/u/shubhamsharmass0001/)
-
 </div>
 
 ## GitHub Stats
